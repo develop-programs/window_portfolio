@@ -2,7 +2,6 @@
 import React from 'react'
 import Loading from '@/components/custom/Loading';
 import LockScreen from '@/components/custom/LockScreen';
-import LoginScreen from '@/components/custom/LoginScreen';
 
 export default function page() {
   const [loading, setLoading] = React.useState(true);
