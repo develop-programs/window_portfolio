@@ -44,7 +44,7 @@ export default function Loading() {
                     </svg>
                 </div>
                 <div className='mt-52'>
-                    <Image src="/loading-windows.gif" width={70} height={70} alt="loading-logo" loading="lazy" decoding='async' />
+                    <Image src="/loading-windows.gif" width={70} height={70} alt="loading-logo" loading="lazy" decoding='async' unoptimized={true} />
                 </div>
             </div>
         </div>
